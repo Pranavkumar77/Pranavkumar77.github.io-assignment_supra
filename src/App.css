@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.search-input{
+margin: 20px;
+height: 30px;
+width: 300px;
+}
+
+.button-style{
+  height: auto;
+  width: auto;
+  background-color: grey;
+  color: black;
+}
+
+.photo-item {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
